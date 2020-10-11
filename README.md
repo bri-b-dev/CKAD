@@ -1593,13 +1593,20 @@ So remember that it still creates a PV, it's just that you don't have to manuall
 
 ### Use Shortcuts
 
-po Pods
-rs ReplicaSets
-deploy Deployments
-svc Services
-ns Namespaces
-netpol Network Policies
-pv Persistent Volumes
-pvc Persistent Volume Claims
-sa Service Accounts
+| resource | shortcut |
+|---|---|
+| Pods | po |
+| ReplicaSets | rs |
+| Deployments | deploy |
+| Services | svc |
+| Namespaces | ns |
+| Network Policies | netpol |
+| Persistent Volumes | pv |
+| Persistent Volum Claims | pvc |
+| Service Accounts | sa |
+
+### Use Auto-completion
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl/#enabling-shell-autocompletion
+
 
